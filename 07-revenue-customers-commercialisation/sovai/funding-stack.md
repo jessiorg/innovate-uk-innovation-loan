@@ -112,8 +112,57 @@ Energy Trading
 
 ---
 
+## Funding Flow Diagram
+
+```mermaid
+flowchart TB
+    subgraph "Government Support (No Overlap)"
+        A[IUK Innovation Loan<br/>£100k–£5M<br/>7.4% commercial loan<br/>Debenture on assets] --> A1[Build foundations:<br/>Hires · GPU cluster<br/>Spatial intelligence<br/>Energy management]
+
+        B[SovAI R&D Procurement<br/>Challenge 3: Compute Efficiency<br/>£1M–£3M contract<br/>Supplier owns IP] --> B1[Build compute:<br/>GPU infrastructure<br/>Novel energy-aware<br/>scheduling system]
+
+        C[SovAI Compute Access<br/>AIRR supercomputers<br/>Up to 1M GPU hours<br/>Cost reduction] --> C1[Build models:<br/>Train on UK<br/>infrastructure<br/>Lower capex]
+
+        D[SovAI Visa Support<br/>Reimbursement<br/>Skilled Worker · Global Talent<br/>Innovator Founder] --> D1[Hire globally:<br/>GPU engineers<br/>ML specialists<br/>Power electronics]
+    end
+
+    A1 --> E[Kanay Revenue Stack]
+    B1 --> E
+    C1 --> E
+    D1 --> E
+
+    E --> E1[GPU Compute Sales<br/>Applied Intelligence<br/>Energy Trading]
+    E1 --> F[Customer Revenue<br/>SovAI Portfolio<br/>Direct AI companies<br/>Biotech sector]
+    F --> G[Loan Repaid<br/>Jobs created<br/>UK economic benefit]
+```
+
+---
+
 ## Timeline
 
+```mermaid
+gantt
+    title Kanay — Funding Timeline
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %Y
+
+    section IUK Loan
+    EOI Submission           :crit, i1, 2026-10-09, 1d
+    EOI Review              :i2, 2026-10-10, 2026-11-01, 21d
+    Full Application         :i3, 2026-11-02, 2026-12-01, 30d
+    Loan Drawn              :crit, i4, 2026-12-01, 2027-01-15, 45d
+
+    section SovAI
+    Contact SovAI (now)     :s1, 2026-10-02, 2026-10-10, 8d
+    Approved Supplier List   :s2, after s1, 14d
+    Batch 2 Submission      :crit, s3, 2026-12-31, 1d
+    Batch 2 Outcome         :s4, 2027-01-29, 1d
+    Contract Signed          :s5, after s4, 30d
+
+    section Revenue
+    First GPU Customers     :r1, 2027-03-01, 2027-06-30, 120d
+    Applied Intelligence v1  :r2, 2027-03-01, 2027-06-30, 120d
+    Energy trading live     :r3, 2027-06-01, 2027-09-30, 120d
 ```
 NOW
 ├── Apply to SovAI Approved Supplier List (no deadline)

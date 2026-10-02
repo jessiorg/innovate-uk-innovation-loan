@@ -8,6 +8,33 @@
 
 ## The Three-Phase Interest Structure
 
+```mermaid
+gantt
+    title Innovate UK Innovation Loan — 7-Year Maximum Timeline
+    dateFormat  YYYY
+    axisFormat  %Y
+
+    section Project
+    Drawdown Period (3.7% payable)  :active, p1, 2027, 3 years
+
+    section Extension
+    Extension Period (optional, 3.7%) :ext, 2030, 2 years
+
+    section Repayment
+    Repayment Period (7.4% annuity)  :rep, 2032, 5 years
+```
+
+---
+
+```mermaid
+pie title Interest Split — £500k Loan Example
+    "Payable during project (3.7%)" : 18500
+    "Deferred to repayment (3.7%)" : 18500
+    "Repayment phase interest (incremental)" : 71326
+```
+
+**Note:** The deferred interest (£18,500 on a £500k full-year draw) is small because the 3.7% deferred accumulates on the outstanding principal, not the full loan amount. Total interest over 7 years on a £500k loan drawn at start ≈ £108,326.
+
 This is the most important thing to understand. The 7.4% rate is split:
 
 | Phase | Duration | Interest Rate | What Happens |

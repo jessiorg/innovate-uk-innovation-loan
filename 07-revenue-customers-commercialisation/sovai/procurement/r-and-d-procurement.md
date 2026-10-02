@@ -79,6 +79,19 @@ SMEs that are cashflow-constrained can request **upfront payments** — justifie
 
 ## Kanay's SovAI Procurement Strategy
 
+```mermaid
+flowchart LR
+    A[Contact SovAI<br/>Supplier positioning] --> B[Approved Supplier List<br/>No deadline]
+    B --> C[Batch 2 Submission<br/>31 Dec 2026]
+    C --> D{Challenge 3<br/>Compute Efficiency}
+    D --> E[Outcome<br/>29 Jan 2027]
+    E -->|Contract awarded| F[Sign contract<br/>Work begins]
+    E -->|Not awarded| G[Batch 3<br/>26 Feb 2027]
+    F --> H[IP owned by Kanay<br/>Gov gets usage licence]
+    H --> I[First government<br/>customer reference]
+    I --> J[Unlocks further<br/>GPU customers]
+```
+
 ```
 NOW     → Apply to Approved Supplier List (no deadline)
 DEC 2026→ Submit Batch 2 Full Application (Challenge 3: compute efficiency)
