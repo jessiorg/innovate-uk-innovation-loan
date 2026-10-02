@@ -8,6 +8,23 @@
 
 Kanay is **not seeking Sovereign AI equity investment**. Kanay is pursuing four distinct SovAI support mechanisms:
 
+## Why Contact Sovereign AI Now
+
+> *"No AI company will flourish without compute for inference, decisions, and training."*
+
+Sovereign AI's portfolio companies — Basecamp Research, OLIX, CuspAI, Isomorphic Labs, Ineffible Intelligence — are all GPU buyers. They need compute. Kanay is building compute infrastructure.
+
+Approaching Sovereign AI today as a **potential supplier** — not an equity seeker — means:
+- Getting on SovAI's radar before the procurement competition
+- Being introduced to portfolio companies as a preferred compute supplier
+- Access to matched funding mechanisms (debt, grants) through SovAI's wider ecosystem
+- Early access to AIRR compute access when the next round opens
+
+**The conversation to open with Sovereign AI:**
+> *"Kanay is building energy-aware GPU compute infrastructure. We are not seeking equity. We want to supply UK AI companies — including your portfolio — with compute at prices that only our energy model can offer. We want to be on your radar as a supplier."*
+
+---
+
 ### 1. R&D Procurement Contract
 **What:** Government buys novel AI R&D as a customer under the Procurement Act 2023.
 **Challenge fit:** Challenge 3 — compute efficiency.

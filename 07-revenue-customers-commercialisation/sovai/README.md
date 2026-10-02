@@ -100,12 +100,28 @@ Basecamp Research · OLIX (UK unicorn) · CuspAI ($450M Series B) · Isomorphic 
 
 ---
 
-## How to Engage
+## How to Engage — Contact Sovereign AI Now
+
+**The strategic argument for contacting Sovereign AI today:**
+
+> *"No AI company will flourish without compute for inference, decisions, and training."*
+
+Kanay's positioning: We are building the compute substrate that AI companies need to operate. We are not seeking equity from Sovereign AI. We are approaching them as a potential supplier and partner — a company that can help Sovereign AI achieve its mission of scaling British AI companies by providing the compute infrastructure they depend on.
+
+**Three reasons to contact Sovereign AI now:**
+1. **Matched funding** — Sovereign AI can connect Kanay to matched funding sources (debt, grants) as part of their wider support ecosystem for portfolio companies
+2. **Fast-track to AI companies** — Sovereign AI portfolio companies (Basecamp Research, OLIX, CuspAI, Isomorphic Labs, etc.) are GPU buyers. Kanay as an approved supplier gets direct access to the entire SovAI portfolio as potential customers
+3. **AIRR access** — sovereign compute access reduces Kanay's build cost; contact now to understand when the next round opens
+
+**The engagement path:**
+- Contact Sovereign AI via sovereignai.gov.uk/about#contact — describe Kanay as a compute infrastructure provider seeking to supply UK AI companies including portfolio companies
+- Apply to SovAI Approved Supplier List (procurement) — no deadline, submit today
+- Express interest in the Strategic Assets Programme (data infrastructure)
+- Monitor sovereignai.gov.uk for AIRR compute access round
 
 **For procurement:** Apply to Approved Supplier List → then compete in batches (Batch 2 deadline: 31 Dec 2026)
 **For compute access:** Apply through the unified portal (currently closed — monitor sovereignai.gov.uk)
-**For equity:** Get in touch via sovereignai.gov.uk/about#contact
-**For visa support:** Available to portfolio companies and compute recipients
+**For equity:** Not sought — but a relationship with Sovereign AI as a supplier and partner is more valuable than equity dilution
 
 ---
 
