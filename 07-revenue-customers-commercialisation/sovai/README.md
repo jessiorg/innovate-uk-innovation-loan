@@ -1,67 +1,118 @@
-# Sovereign AI Fund — Request for Founders
+# Sovereign AI Fund — Full Overview
 
-> **Primary brief:** sovereignai.gov.uk/requestforfounders
-> **Four Focus Areas** — these are what Sovereign AI is looking for from founders.
+> **Primary brief:** [sovereignai.gov.uk/requestforfounders](https://www.sovereignai.gov.uk/requestforfounders)
+> **All references:** [references/references.md](../references/references.md)
 
 ---
 
-## The Four Focus Areas
+## What is Sovereign AI?
+
+The United Kingdom's sovereign venture fund. Backed by **£500M government capital**. A nation-state entered the venture game.
+
+*"Britain's Sovereign Venture Fund dedicated to scaling British AI startups."*
+
+**Mission:** Back founders to start here, scale here, and win everywhere.
+
+**The problem it solves:** The UK has world-class AI research and talent, but these strengths have not translated into economic benefit. Companies face barriers — capital, compute, data, talent, customers — and strong incentives to relocate. Sovereign AI addresses the specific gaps where government adds value beyond private capital.
+
+**Five Focus Areas** (what they back founders to build):
+1. Compute & Infrastructure
+2. Foundation Models
+3. AI in Health & Life Sciences
+4. Scientific Discovery
+5. Trust, Safety & Assurance
+
+---
+
+## The Five Sovereign AI Offerings
+
+Sovereign AI is not just a VC fund. It is a comprehensive support ecosystem:
+
+| Offering | What it is | Details |
+|---|---|---|
+| **1. Equity Investment** | Venture capital | £1M–£10M, Pre-Seed to Growth, market terms and speed |
+| **2. R&D Procurement** | Government as first customer | Up to £100M total; contracts £250k–£10M; Challenge 3 = compute efficiency |
+| **3. AI Research Resource (AIRR)** | Sovereign compute access | Up to 1M GPU hours per startup; Isambard + DAWN supercomputers |
+| **4. Strategic Assets Programme** | Pre-competitive data infrastructure | AI datasets + autonomous lab infrastructure; consortia with universities |
+| **5. Visa Support** | Talent recruitment | Reimbursement of visa costs; Skilled Worker, Global Talent, Innovator Founder routes |
+
+**Kanay is NOT seeking equity investment.** Kanay is pursuing: procurement contracts + compute access + strategic assets + visa support.
+
+---
+
+## The Five Focus Areas
 
 ### 1. Compute & Infrastructure — "Build the Substrate"
 *"Compute is no longer just a commercial problem. It is strategic infrastructure."*
 
-Novel hardware architectures · Inference optimisation and scheduling · Orchestration for regulated industries · Unlocking cost-prohibitive workloads
+Looking for: novel hardware architectures (photonics, neuromorphic, specialised silicon) · Inference optimisation · Orchestration for regulated industries · Unlocking cost-prohibitive workloads
 
-**Kanay's fit:** Containerised GPU clusters + energy-aware compute scheduling + owned battery/renewable generation → genuine compute efficiency innovation.
-
----
+**Kanay's fit:** Containerised GPU clusters + energy-aware compute scheduling + owned battery/renewable generation → genuine compute efficiency innovation. This is the primary SovAI fit.
 
 ### 2. Foundation Models — "Reinvent the Model"
-Genuinely novel architectures · New training paradigms · Translating foundational research into commercial products · Compute-efficient approaches
+Looking for: genuinely novel architectures (not iteration) · New training paradigms · Foundational research to commercial products · Compute-efficient approaches
 
-**Kanay's fit:** Applied intelligence — domain expertise embedded in the model layer. Spatial intelligence taxonomy. Sector-specific overlays. Efficient training on proprietary commercial data.
+**Kanay's fit:** Applied intelligence — domain expertise embedded in model layer. Spatial intelligence taxonomy. Sector-specific overlays. Not building a foundation model; building the intelligence layer on top.
 
----
+### 3. AI in Health & Life Sciences — "Medicine, Rewritten"
+Looking for: AI-designed novel therapeutics · Multi-omics integration · NHS workflow integration · Regulatory pathway expertise
 
-### 3. Health & Life Sciences — "Medicine, Rewritten"
-AI-designed novel therapeutics · Multi-omics integration · NHS workflow integration · Regulatory pathway
-
-**Kanay's fit:** Sell compute + applied intelligence to biotech firms. UK/Ireland/Europe pharma as customers. US as larger market. Speed to deployment is the priority.
-
----
+**Kanay's fit:** Not a primary bid. Biotech firms as compute + applied intelligence customers. UK/Ireland/Europe pharma market. US as larger market.
 
 ### 4. Scientific Discovery — "Accelerate Science"
-Materials design · Molecular engineering · Lab-in-the-loop platforms · Scientific data infrastructure
+Looking for: Materials design with defensible IP · Simulation tools · Lab-in-the-loop platforms · Scientific data infrastructure
 
 **Kanay's fit:** Compute substrate for scientific workloads. Not primary focus.
 
+### 5. Trust, Safety & Assurance — "Define the Standard"
+Looking for: Evaluation and red-teaming tools · Monitoring infrastructure for regulated agents · Governance tooling · Privacy-preserving infrastructure
+
+**Kanay's fit:** Not a primary bid.
+
 ---
 
-## What Sovereign AI Offers
+## Kanay's Three SovAI Instruments (Excluding Equity)
 
-| | |
+```
+PROCUREMENT     → Challenge 3: compute efficiency R&D contract
+COMPUTE ACCESS  → Up to 1M GPU hours via AIRR
+STRATEGIC ASSETS→ AI datasets / lab infrastructure partnerships
+VISA SUPPORT    → Fast-track global AI talent recruitment
+```
+
+---
+
+## Leadership
+| Name | Role |
 |---|---|
-| **Equity** | £1M–£10M at market terms, Pre-Seed to Growth |
-| **Compute** | Up to 1M GPU hours on UK supercomputers per startup |
-| **Network** | Gateway to UK regulated sectors, government, portfolio companies |
-| **Talent** | Fast-tracked AI specialist visas |
-| **Procurement** | R&D contracts £250k–£10M (see r-and-d-procurement.md) |
+| Suzanne Ashman | Managing Partner |
+| Joséphine Kant | Investment Partner |
+| James Wise | Chair (Non-Executive) |
+| Jade Leung | Prime Minister's AI Advisor |
+| Will Bushby | Investor |
 
 ---
 
-## Kanay's Three-Part SovAI Strategy
+## Portfolio Companies
+Basecamp Research · OLIX (UK unicorn) · CuspAI ($450M Series B) · Isomorphic Labs (Demis Hassabis) · Ineffible Intelligence (David Silver) · Callosum
 
-```
-1. EQUITY        → Sovereign AI invests £1M–£10M → network, institutional signal, government pipeline
-2. PROCUREMENT   → Challenge 3 R&D contract → first government customer, IP owned by Kanay
-3. COMPUTE SALES → Sell GPU hours + applied intelligence to SovAI portfolio companies + biotech sector
-```
+*"3 million GPU hours deployed through initial compute agreements."*
 
 ---
 
-## Links
-- Main: sovereignai.gov.uk
-- Request for Founders (THE BRIEF): sovereignai.gov.uk/requestforfounders
-- Insights: sovereignai.gov.uk/insights
-- R&D Procurement: see r-and-d-procurement.md
+## How to Engage
+
+**For procurement:** Apply to Approved Supplier List → then compete in batches (Batch 2 deadline: 31 Dec 2026)
+**For compute access:** Apply through the unified portal (currently closed — monitor sovereignai.gov.uk)
+**For equity:** Get in touch via sovereignai.gov.uk/about#contact
+**For visa support:** Available to portfolio companies and compute recipients
+
+---
+
+## Key Links
+- sovereignai.gov.uk
+- sovereignai.gov.uk/requestforfounders — THE BRIEF
+- sovereignai.gov.uk/insights
+- sovereignai.gov.uk/offer-beyond-investment
+- sovereignai.gov.uk/faqs
 - References: ../references/references.md
