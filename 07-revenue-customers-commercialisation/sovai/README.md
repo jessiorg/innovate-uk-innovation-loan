@@ -112,6 +112,7 @@ Kanay's positioning: We are building the compute substrate that AI companies nee
 1. **Matched funding** — Sovereign AI can connect Kanay to matched funding sources (debt, grants) as part of their wider support ecosystem for portfolio companies
 2. **Fast-track to AI companies** — Sovereign AI portfolio companies (Basecamp Research, OLIX, CuspAI, Isomorphic Labs, etc.) are GPU buyers. Kanay as an approved supplier gets direct access to the entire SovAI portfolio as potential customers
 3. **AIRR access** — sovereign compute access reduces Kanay's build cost; contact now to understand when the next round opens
+4. **Visa support** — Global AI talent is essential. Sovereign AI reimburses visa costs (Skilled Worker, Global Talent, Innovator Founder) for portfolio companies. We will need people from elsewhere — this removes the cost barrier to hiring globally.
 
 **The engagement path:**
 - Contact Sovereign AI via sovereignai.gov.uk/about#contact — describe Kanay as a compute infrastructure provider seeking to supply UK AI companies including portfolio companies

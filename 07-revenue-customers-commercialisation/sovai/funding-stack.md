@@ -21,7 +21,7 @@ Approaching Sovereign AI today as a **potential supplier** — not an equity see
 - Early access to AIRR compute access when the next round opens
 
 **The conversation to open with Sovereign AI:**
-> *"Kanay is building energy-aware GPU compute infrastructure. We are not seeking equity. We want to supply UK AI companies — including your portfolio — with compute at prices that only our energy model can offer. We want to be on your radar as a supplier."*
+> *"Kanay is building energy-aware GPU compute infrastructure. We are not seeking equity. We want to supply UK AI companies — including your portfolio — with compute at prices that only our energy model can offer. We will need global talent to build this — your visa support removes the cost barrier. We want to be on your radar as a supplier."*
 
 ---
 

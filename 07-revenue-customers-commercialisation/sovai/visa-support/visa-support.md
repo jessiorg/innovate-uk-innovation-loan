@@ -23,9 +23,19 @@ Available to:
 
 ---
 
-## Kanay's Position
+## Why This Matters for Kanay
 
-Once Kanay has a Sovereign AI procurement contract or compute allocation, Kanay becomes eligible for visa reimbursement. This makes it cost-effective to hire global AI talent — particularly for specialised GPU infrastructure, spatial intelligence, and energy trading roles.
+Kanay needs global talent to build GPU compute infrastructure, spatial intelligence systems, and energy trading capability. Hiring from outside the UK is not optional — it is essential. The Sovereign AI visa reimbursement removes the cost barrier.
+
+**Roles that will need global talent:**
+- GPU infrastructure engineers
+- Spatial intelligence / ML engineers
+- Energy trading systems developers
+- Power electronics and battery management specialists
+
+**The cost of not having this:** Without global talent, Kanay competes for a smaller pool and pays a premium. With visa cost reimbursement, the economics of hiring globally are the same as hiring locally.
+
+**Activates automatically** once Kanay has a SovAI procurement contract or compute allocation.
 
 ---
 
