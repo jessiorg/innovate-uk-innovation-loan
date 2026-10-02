@@ -1,0 +1,276 @@
+---
+title: "Innovate UK Innovation Loan — Financial Analysis"
+subtitle: "EOI: 9 October 2026 · £100k–£5M · 7.4% p.a. (3.7% + 3.7% deferred)"
+author: "jessiorg / innovate-uk-innovation-loan"
+date: today
+format:
+  html:
+    self-contained: true
+    code-fold: show
+    code-tools: true
+    toc: true
+    toc-depth: 3
+  pdf:
+    toc: true
+---
+
+# 1. Loan Configuration
+
+```{r}
+#| label: config
+#| include: false
+
+CFG <- list(
+  loan_amount     = 500000,
+  project_years   = 2,
+  extension_years  = 0,
+  repayment_years  = 5,
+  rate_drawdown   = 0.037,
+  rate_repayment  = 0.074
+)
+
+n_proj  <- CFG$project_years   * 4
+n_ext   <- CFG$extension_years * 4
+n_repay <- CFG$repayment_years * 4
+r_q_d   <- CFG$rate_drawdown  / 4
+r_q_r   <- CFG$rate_repayment / 4
+```
+
+Configuration:
+
+- **Loan amount:** £`r format(CFG$loan_amount, big.mark = ",")`
+- **Project period:** `r CFG$project_years` years (`r n_proj` quarters)
+- **Repayment period:** `r CFG$repayment_years` years (`r n_repay` quarters)
+- **Drawdown rate:** `r scales::percent(CFG$rate_drawdown)` per year (`r scales::percent(r_q_d)` per quarter)
+- **Repayment rate:** `r scales::percent(CFG$rate_repayment)` per year
+
+---
+
+# 2. Draw-Down Schedule
+
+During the project period, the full loan (or tranche) is drawn in the first quarter. Interest at **3.7% is payable quarterly**; an equal amount is **deferred** to the repayment phase.
+
+```{r}
+#| label: drawdown
+
+quarter     <- 1:n_proj
+drawn       <- ifelse(quarter == 1, CFG$loan_amount, 0)
+int_pay     <- drawn * r_q_d
+int_def     <- drawn * r_q_d
+cum_drawn   <- cumsum(drawn)
+cum_def     <- cumsum(int_def)
+
+drawdown <- data.frame(
+  Quarter               = quarter,
+  Drawn                 = drawn,
+  `Interest.payable`    = int_pay,
+  `Interest.deferred`   = int_def,
+  `Cumulative.drawn`    = cum_drawn,
+  `Cumulative.deferred` = cum_def
+)
+
+drawdown
+```
+
+::: {.callout-note}
+**Note on staged drawdowns:** The model draws the full amount in Q1. If you stage your drawdown across quarters (e.g. £200k Q1, £300k Q3), deferred interest accrues on a smaller balance — reducing total cost. Adjust the `drawn` vector in the R code to model your actual drawdown plan.
+:::
+
+---
+
+# 3. Loan Summary
+
+```{r}
+#| label: summary
+
+principal     <- CFG$loan_amount
+def_total     <- tail(cum_def, 1)
+total_repay   <- principal + def_total
+q_payment     <- total_repay * r_q_r / (1 - (1 + r_q_r)^(-n_repay))
+total_interest<- q_payment * n_repay - principal
+```
+
+| Item | Value |
+|---|---|
+| Principal borrowed | £`r format(principal, big.mark = ",")` |
+| Deferred interest (project phase) | £`r format(def_total, big.mark = ",")` |
+| **Total to repay** | **£`r format(total_repay, big.mark = ",")`** |
+| Quarterly payment (repayment phase) | £`r format(q_payment, big.mark = ",")` |
+| Total interest paid | £`r format(total_interest, big.mark = ",")` |
+| Effective cost of borrowing | `r scales::percent(total_interest / principal)` of principal |
+
+---
+
+# 4. Amortisation — Repayment Period
+
+Quarterly annuity at **7.4%** on the full amount outstanding (principal + deferred interest).
+
+```{r}
+#| label: amort
+
+opening  <- numeric(n_repay)
+interest <- numeric(n_repay)
+capital  <- numeric(n_repay)
+closing  <- numeric(n_repay)
+
+opening[1] <- total_repay
+for (i in 1:n_repay) {
+  interest[i] <- opening[i] * r_q_r
+  capital[i]  <- q_payment - interest[i]
+  closing[i]  <- opening[i] - capital[i]
+  if (i < n_repay) opening[i + 1] <- closing[i]
+}
+
+amort <- data.frame(
+  Quarter          = 1:n_repay,
+  Opening.Balance  = round(opening, 2),
+  Interest         = round(interest, 2),
+  Capital          = round(capital, 2),
+  Closing.Balance  = round(closing, 2)
+)
+
+rbind(head(amort, 4), tail(amort, 2))
+```
+
+*Showing first 4 and last 2 quarters only.*
+
+---
+
+# 5. Full Cashflow Timeline
+
+```{r}
+#| label: cashflow
+
+n_total   <- n_proj + n_repay
+phase     <- c(rep("Project", n_proj), rep("Repayment", n_repay))
+drawdown_out <- c(drawdown$Drawn, rep(0, n_repay))
+interest_out <- c(drawdown$`Interest.payable`, rep(0, n_repay))
+capital_out  <- c(rep(0, n_proj), capital)
+net_cf       <- drawdown_out - interest_out - capital_out
+cum_cf       <- cumsum(net_cf)
+
+full_cf <- data.frame(
+  Quarter      = 1:n_total,
+  Phase        = phase,
+  Drawdown     = drawdown_out,
+  Interest.Out  = interest_out,
+  Capital.Out  = capital_out,
+  Net.Cashflow = round(net_cf, 2),
+  Cum.Cashflow = round(cum_cf, 2)
+)
+
+full_cf
+```
+
+---
+
+# 6. DSCR Covenant Test
+
+The Debt Service Coverage Ratio must be **≥ 1.2x** during the repayment period. Update the `revenue` vector in the R code block to match your business plan.
+
+```{r}
+#| label: dscr
+
+revenue  <- c(100000, 250000, 500000, 750000, 1000000)  # ← edit to your plan
+margin   <- 0.20                                           # ← edit EBITDA margin
+ann_debt <- q_payment * 4
+
+dscr_df <- data.frame(
+  Year         = 1:5,
+  Revenue      = revenue,
+  EBITDA       = revenue * margin,
+  Debt.Service = round(ann_debt, 0),
+  DSCR         = round((revenue * margin) / ann_debt, 2),
+  Covenant     = ifelse((revenue * margin) / ann_debt >= 1.2, "PASS", "FAIL")
+)
+
+dscr_df
+```
+
+**Minimum: 1.2x DSCR · 1.1x liquidity ratio** (tested quarterly via management accounts)
+
+::: {.callout-warning}
+At a £500k loan with a 5-year repayment, the annual debt service is ~£121,665. At 20% EBITDA margin you need **≥ £608k annual revenue** to clear the 1.2x covenant. Pre-revenue businesses must show a credible path to this threshold within the loan term.
+:::
+
+---
+
+# 7. Security & Covenants for Pre-Revenue Businesses
+
+## The Debenture — What It Actually Means
+
+Innovate UK takes a **mortgage debenture over your company assets**. This is a fixed charge, not a floating charge, registered at Companies House. It covers:
+
+- Equipment and plant
+- IP (patents, trademarks, know-how)
+- Trade receivables
+- Inventory
+
+**Critical for pre-revenue companies:** IP and intangible assets do **not** need to be independently valued. The loan is not secured against the assessed value of your IP — it is secured against the company's asset base. IUK assesses the loan based on the **quality of the innovation and commercial potential**, not the balance-sheet value of assets.
+
+## No Personal Guarantees
+
+Directors, founders, and shareholders are **not required to give personal guarantees**. Your home and personal assets are not at risk.
+
+## What IUK Actually Assesses for Pre-Revenue Companies
+
+| Factor | What they look at |
+|---|---|
+| Innovation quality | TRL 6-7+, novelty, competitive moat |
+| Commercial potential | Route to market, customer evidence (LOIs, pilots), revenue model |
+| Management team | Track record, R&D delivery experience |
+| Financial robustness | Cash runway, burn rate, how you service interest during the project |
+| Funding gap | Why the loan is needed vs. equity or commercial debt |
+| Repayment path | How you plan to repay — IPO, trade sale, revenue, refinancing |
+
+## What Pre-Revenue Companies Must Demonstrate
+
+1. **You cannot get equivalent funding from private sources** — this is the market failure IUK exists to address
+2. **You have a credible route to revenue** — LOIs, pilot agreements, regulatory approvals in place
+3. **You can service interest during the project** — at minimum, you need cash to cover the 3.7% payable interest
+4. **Stress-tested cash flow** — what happens if the project is delayed 6 months?
+
+## Security Options & Alternatives
+
+Since there are no personal guarantees and IP is not independently valued, the practical security levers are:
+
+| Option | Detail |
+|---|---|
+| **Debenture over assets** | Standard. Register fixed charge at Companies House. |
+| **Co-investment** | Having equity co-investors (angels, VCs) in alongside reduces IUK risk perception significantly |
+| **R&D tax credit offsets** | If you have a HMRC R&D tax credit claim, this can serve as de facto security |
+| **Pledge of IP** | IP can be included in the debenture; IUK doesn't require a valuation but wants to see it included |
+| **Credit support from a third party** | A parent company or shareholder loan subordinated to IUK's position |
+
+## The Covenant Risk for Pre-Revenue Businesses
+
+The covenants (liquidity 1.1x, DSCR 1.2x) are only tested during the **repayment period** — not during the project period. This gives you up to 3 years (project) + 2 years (extension) = **5 years of runway** before the DSCR covenant is enforced.
+
+That is your window to get to revenue. If you cannot demonstrate a credible path to the revenue threshold by project completion, the loan will be harder to structure.
+
+---
+
+# 8. EOI — What to Prepare
+
+## The 1,000-word Project Summary Must Cover
+
+1. **Vision** — The problem, who has it, why it matters
+2. **Innovation** — What is novel, TRL level, why incumbents cannot do this
+3. **Market** — Addressable market, first customers, route to market
+4. **Team** — Key people, track record, why they are right for this
+5. **Funding gap** — Why a loan, why not equity or grant
+6. **UK economic impact** — Jobs, exports, IP, supply chain; which Industrial Strategy sector
+
+## The 11 EOI Questions
+
+**8 tick-box** — loan amount, sector, R&D stage, prior IUK funding, co-investment status, interest deferral, SME status, no double funding
+
+**3 unscored** — commercial maturity, cash position, prior IUK funding history (self-declared)
+
+**2 written responses:**
+- *Fundraising plan* — broader funding strategy, why the innovation loan is the right instrument now
+- *Investor stakes* — existing investor commitments, how the loan fits alongside them
+
+---
+
+*Repository: [github.com/jessiorg/innovate-uk-innovation-loan](https://github.com/jessiorg/innovate-uk-innovation-loan) · EOI Deadline: 9 October 2026, 11:00am*
