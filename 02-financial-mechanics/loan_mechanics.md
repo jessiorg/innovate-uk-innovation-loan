@@ -73,13 +73,50 @@ A debenture is a **fixed charge over business assets**. It gives IUK Loans Ltd s
 ### What it does NOT mean
 - Your home is not at risk
 - Directors' personal assets are not pledged
-- It's standard practice for SME debt instruments of this type
+- IP and intangible assets do **not** need to be independently valued — the loan is not secured on IP value, it is secured on the company's asset base
 
 ### What you're committing to
 - Not to grant a superior charge to another lender without IUK's consent
 - To maintain adequate insurance on secured assets
 - To keep assets in good condition
 - To notify IUK of any material changes to the business
+
+---
+
+## Pre-Revenue Businesses — The Eligibility Clarification
+
+### What "pre-revenue businesses with no external funding" actually means
+
+The disqualifier is: **pre-revenue + no plan + no means to raise funding** — i.e., a business with no traction, no investors, no LOIs, sitting with an idea and asking IUK to fund it alone.
+
+**The clause is NOT about you needing a closed funding round before applying.** It means:
+1. You must be actively pursuing private capital alongside (not instead of) the IUK loan
+2. You cannot use the IUK loan to substitute for equity fundraising you should be doing
+3. The "funding gap" the loan fills must be genuinely unmet by private markets
+
+### What IUK wants to see from a pre-revenue company with funding plans
+
+The EOI asks you to describe your "broader fundraising strategy." The key sentence they want:
+
+> *"We are raising equity / have revenue / have X in place, and the IUK loan bridges the specific gap that equity alone cannot cover at this stage."*
+
+| Situation | Eligible? |
+|---|---|
+| Pre-revenue, actively fundraising, LOIs/pilots in hand | ✅ Likely yes |
+| Pre-revenue, have a clear equity funding plan | ✅ Likely yes |
+| Pre-revenue, no external funding plans, no traction | ❌ No |
+| Pre-revenue, turning to IUK because equity said no | ⚠️ Risky — must show why private capital truly unavailable |
+
+### The Kanay-specific position
+
+From the investor materials reviewed:
+- **SAFE instruments** (Friends & Family) — active with MFN + priority payout clauses
+- **Convertible Note** (£10M, April 2024) — 8% p.a., Nvidia DGX GPU collateral, Dec 2029 maturity
+- **Short/Long Term Sheets** — SEIS/EIS eligible preference shares; Seed round in progress
+- **Floating Wind JV** — project IRR 34%, equity IRR 52%, 1.9yr payback (most credible projections)
+- **Current fundraise** — actively seeking institutional investment alongside this IUK loan
+
+This is the "broader funding strategy" the EOI asks you to describe. The IUK loan sits alongside the equity instruments, not in place of them.
 
 ---
 

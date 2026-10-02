@@ -138,8 +138,8 @@ console.print(df_full_cf.to_string(index=False))
 # ─────────────────────────────────────────────
 
 # Adjust revenue_profile to match your business plan
-revenue_profile = [100_000, 250_000, 500_000, 750_000, 1_000_000]
-operating_margin = 0.20
+revenue_profile = [0, 30_000_000, 60_000_000, 90_000_000, 105_000_000]  # Kanay trading Y1-Y5
+operating_margin = 0.25  # Trading gross margin
 annual_debt = q_payment * 4
 
 dscr_rows = []

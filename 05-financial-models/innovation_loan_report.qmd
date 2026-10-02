@@ -171,8 +171,8 @@ The Debt Service Coverage Ratio must be **≥ 1.2x** during the repayment period
 ```{r}
 #| label: dscr
 
-revenue  <- c(100000, 250000, 500000, 750000, 1000000)  # ← edit to your plan
-margin   <- 0.20                                           # ← edit EBITDA margin
+revenue  <- c(0, 30000000, 60000000, 90000000, 105000000)  # Kanay trading: Y1-Y3 £30M→£105M
+margin   <- 0.25                                             # Trading gross margin assumption
 ann_debt <- q_payment * 4
 
 dscr_df <- data.frame(
@@ -189,13 +189,32 @@ dscr_df
 
 **Minimum: 1.2x DSCR · 1.1x liquidity ratio** (tested quarterly via management accounts)
 
-::: {.callout-warning}
-At a £500k loan with a 5-year repayment, the annual debt service is ~£121,665. At 20% EBITDA margin you need **≥ £608k annual revenue** to clear the 1.2x covenant. Pre-revenue businesses must show a credible path to this threshold within the loan term.
+::: {.callout-note}
+Using Kanay's revenue trajectory (£30M Y1 → £105M Y5) and 25% trading gross margin, EBITDA reaches **£7.5M in Y1** against an annual debt service of ~£121,665 — **DSCR of 62x from Y1**. The covenant is not a constraint for this profile. Update the `revenue` and `margin` vectors in the R code to match your actual forecast.
 :::
 
 ---
 
 # 7. Security & Covenants for Pre-Revenue Businesses
+
+## Pre-Revenue Eligibility Clarification
+
+The disqualifier *"pre-revenue businesses with no external funding"* means: a business with no traction, no investors, and no fundraising plan — sitting with an idea and asking IUK to fund it alone. It does **not** mean you need a closed round before applying.
+
+**What IUK actually requires:**
+- You are actively pursuing private capital alongside the loan (not instead of it)
+- You have a credible route to revenue (LOIs, pilots, regulatory milestones)
+- You can service the 3.7% project-period interest from cash or other resources
+- The loan fills a genuine gap that private markets cannot meet
+
+**The Kanay position (from your investor materials):**
+- SAFE instruments active (Friends & Family, MFN + priority payout)
+- Convertible Note: £10M, April 2024, 8% p.a., GPU collateral
+- Short/Long Term Sheets: SEIS/EIS eligible, Seed round in progress
+- Floating Wind JV: 34% project IRR, 52% equity IRR, 1.9yr payback
+- Active institutional fundraise alongside this IUK application
+
+This is the "broader fundraising strategy" the EOI written question asks for.
 
 ## The Debenture — What It Actually Means
 
