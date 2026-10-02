@@ -1,94 +1,163 @@
-# Kanay Funding Stack — Sovereign AI + IUK + Equity
+# Kanay Funding Stack — Appendix: Sovereign AI + IUK + Equity
 
-## The Complete Picture
+> **Note on legal framing:** Neither instrument is state aid. The IUK Innovation Loan is a commercial loan to be repaid with a debenture. Sovereign AI equity is market-rate investment. SovAI R&D Procurement is a government contract to purchase R&D services under the Procurement Act 2023. The only constraint is basic contract law: you cannot invoice two parties for the same work.
+
+---
+
+## The Three Instruments
+
+### 1. IUK Innovation Loan — £5M (maximum)
+**Purpose:** Foundation layer — hire first people, procure core equipment, build the initial infrastructure.
+
+| What it funds | Why IUK funds it |
+|---|---|
+| Founding team hires | Late-stage R&D, pre-revenue, innovation gap |
+| GPU compute infrastructure | Capital equipment, eligible cost |
+| Spatial intelligence layer development | R&D, novel technical approach |
+| Energy management system | Market testing, pre-commercial |
+| Working capital (up to 20%) | Commercialisation preparation |
+
+**Not funded by IUK:** Revenue-generating commercial activities, what SovAI procures.
+
+### 2. Sovereign AI — Equity Investment
+**Purpose:** Gateway — network, institutional backing, co-investment signal, government contract pipeline.
+
+- Sovereign AI invests £1M–£10M at market terms
+- Acts as the convener: connects portfolio companies to government, regulated sectors, and each other
+- Being backed by Sovereign AI signals institutional credibility to other investors
+- No overlap with IUK because this is equity, not a grant or subsidy
+
+### 3. Sovereign AI — R&D Procurement Contract
+**Purpose:** First customer — government procures the compute infrastructure as an R&D service.
+
+- Challenge 3 (compute efficiency) is the direct fit
+- Contract value: £1M–£3M (competitive tender)
+- Kanay owns the IP; government gets a usage licence
+- This is a supplier relationship, not aid
+
+---
+
+## Kanay's Sovereign AI Fit — Three Focus Areas
+
+### Focus Area 1: Compute & Infrastructure ("Build the Substrate")
+*"Compute is no longer just a commercial problem. It is strategic infrastructure."*
+
+Kanay's position:
+- Novel compute infrastructure: containerised GPU clusters in modular/warehouse configurations
+- Energy-aware scheduling: owned battery + renewable generation + power trading → marginal power cost approaches zero → genuine compute efficiency innovation
+- Inference optimisation and orchestration for regulated industries
+- Unlocking cost-prohibitive workloads for UK AI companies
+
+**This is the primary SovAI fit.**
+
+### Focus Area 2: Foundation Models ("Reinvent the Model")
+*Applied intelligence — commercial domain expertise to build more effective foundation models.*
+
+Kanay's position:
+- Spatial intelligence layer: classifies raw market data into proprietary taxonomy
+- Domain-specific models built on commercial expertise, not generic foundation model iteration
+- Sector-specific intelligence (energy, metals, agriculture, carbon, freight)
+- Efficient training paradigms: own proprietary data + domain expertise = structural edge
+
+**Compute-for-equity model:** Offer AI companies compute at preferential rates in exchange for equity — aligns incentives, builds ecosystem, no cash required.
+
+### Focus Area 3: AI In Health & Life Sciences ("Medicine, Rewritten")
+*Biotechnology firms as compute + model customers.*
+
+Kanay's position:
+- UK/Ireland/Europe: large pharma markets, NHS adjacency
+- US market: biotechnology firms as direct compute customers
+- Applied intelligence: domain-specific models for biotech sector
+- Speed to deployment matters — get applied intelligence available as quickly as possible
+
+**Customer segment, not primary SovAI bid.** This is who Kanay sells compute to once built.
+
+---
+
+## Applied Intelligence — The Commercial Thesis
+
+The differentiation is not compute alone. Every GPU cluster can sell compute hours.
+
+The differentiation is **applied intelligence**:
+- Domain expertise embedded in the model layer
+- Proprietary taxonomy that classifies and structures market data
+- Sector-specific overlays (energy trading, biotech, freight)
+- Customer's standard system mapping (GICS, NACE, HS codes)
+
+**This is what makes compute sticky.** Customers don't just rent GPU hours — they rent intelligence.
+
+---
+
+## Revenue Model
 
 ```
-KANAY CAPITAL STRUCTURE
-│
-├── SOVEREIGN AI (Government as customer/investor)
-│   ├── R&D Procurement Contract → £1-3M (Batch 2, Dec 2026)
-│   │   └── First government customer
-│   │   └── Challenge 3: compute efficiency
-│   │   └── IP: Kanay owns; government gets usage licence
-│   │
-│   └── Equity Investment → £1-10M (concurrent or subsequent)
-│       └── Pre-Seed to Growth
-│
-├── IUK INNOVATION LOAN (Debt)
-│   ├── Amount: £100k-£5M
-│   ├── Rate: 7.4% (3.7% project + 3.7% deferred)
-│   ├── Security: debenture on assets (no personal guarantees)
-│   └── Project period: 2-5 years, repayment up to 5 years
-│
-└── EQUITY INSTRUMENTS (already in place / in progress)
-    ├── SAFE (Friends & Family) — MFN + priority payout
-    ├── Convertible Note (£10M, 8%, Nvidia GPU collateral, Dec 2029)
-    ├── Short/Long Term Sheets (SEIS/EIS, Seed round)
-    └── Sovereign AI equity (concurrent)
+GPU Compute Sales
+├── Via Sovereign AI fund → UK AI companies (SovAI portfolio)
+├── Direct → UK AI companies
+├── Direct → European biotech firms (UK/Ireland/Europe pharma)
+├── Direct → US biotech firms
+└── Compute-for-equity → Early AI companies (equity builder, no cash cost)
+
+Applied Intelligence Licensing
+├── Spatial intelligence API (energy, metals, agriculture, carbon, freight)
+├── Sector-specific model overlays
+└── Proprietary taxonomy access (KCC — Kanay Classification System)
+
+Energy Trading
+├── Battery storage arbitrage
+├── Renewable power trading
+└── Grid services (ancillary markets)
 ```
 
----
-
-## Addressing the Double-Funding Rule
-
-**The IUK rule:** Cannot fund the same project with both IUK and other government money.
-
-**The SovAI rule:** Cannot claim the same project costs against both IUK and SovAI.
-
-**Solution:** Kanay has **two distinct projects** with **distinct work packages**:
-
-### Project A — AI Compute Infrastructure (SovAI funded)
-- Spatial intelligence layer development
-- GPU cluster deployment
-- Containerised compute architecture
-- Battery + renewable energy integration
-- **SovAI R&D Procurement contract**
-
-### Project B — Trading Infrastructure (IUK funded)
-- Energy trading algorithm development
-- Market microstructure
-- Counterparty relationship establishment
-- Commercialisation and market testing
-- **IUK Innovation Loan**
-
-These are different outputs, different IP, different customers:
-- SovAI pays Kanay to build compute infrastructure
-- Kanay sells compute hours + spatial intelligence to AI companies (SovAI portfolio and others)
-- Energy trading counterparties pay Kanay for power market access
+**Applied intelligence available as quickly as possible** = ship the spatial intelligence layer first, before the full compute stack is built.
 
 ---
 
-## Does This Satisfy IUK's "Pre-Revenue + External Funding" Test?
+## Max £5M IUK Loan — What It Enables
 
-| Test | Kanay's Position |
+| IUK £5M deployment | Outcome |
 |---|---|
-| Active external funding | ✓ SAFE, Convertible Note, Seed round in progress |
-| Credible route to revenue | ✓ SovAI contract (government customer), GPU hour sales |
-| Demonstrable demand | ✓ Challenge 3 fit, 1M GPU hours SovAI allocation |
-| Why not commercial debt? | ✓ Novel AI infrastructure = innovation gap private banks won't fund |
-| Repayment path | ✓ Energy trading revenue + compute sales + SovAI contract |
+| First 10 hires (technical + commercial) | Team to build and sell |
+| Initial GPU cluster (H100, containerised) | Compute capacity for first customers |
+| Spatial intelligence layer (core) | Applied intelligence v1 |
+| Energy management system | Power cost optimisation |
+| Working capital (20% = £1M) | Customer trials, first pilots |
+| **Total** | **Foundations in place, first revenue in Y1** |
 
-**Conclusion:** Kanay is exactly the company this scheme is designed for. Pre-revenue in energy trading, but with active equity investment, a government customer contract target, and a clear path to revenue through multiple channels.
-
----
-
-## Risk Flags to Monitor
-
-| Risk | Mitigation |
-|---|---|
-| SovAI Batch 2 not awarded | Apply to Approved Supplier List now; submit strongest possible application |
-| Sovereign AI equity conflicts | SovAI states investee status "confers no advantage" in procurement — can hold both |
-| Double-funding scrutiny | Keep work packages and cost lines clearly separate |
-| IUK covenant risk (DSCR) | Kanay's trading revenue model: DSCR 62x in Y1 — not a constraint |
+**What this unlocks:**
+- SovAI equity: now fundable with foundations in place
+- SovAI procurement: can bid Challenge 3 with working infrastructure
+- Direct GPU customers: revenue from month 1
+- Compute-for-equity: build ecosystem without cash outflow
 
 ---
 
-## IUK EOI — What to Say About Sovereign AI
+## Timeline
 
-In the **written fundraising question** (EOI question on funding strategy):
+```
+NOW
+├── Apply to SovAI Approved Supplier List
+├── Prepare IUK EOI (deadline 9 Oct 2026)
+└── Begin SovAI equity conversation
 
-> *"Kanay is applying concurrently to the Sovereign AI R&D Procurement Scheme (Batch 2, December 2026) as a compute efficiency supplier under Challenge 3. A signed SovAI contract would serve as Kanay's first government customer, demonstrating market demand for the compute infrastructure we are building. The IUK Innovation Loan covers the distinct work package of energy trading infrastructure and commercial operations — a separate project with different outputs and customers. These two government instruments fund different IP, different teams, and different commercial outcomes."*
+9 Oct 2026
+└── Submit IUK EOI
 
-In the **investor stakes written question**:
+Oct–Dec 2026
+├── IUK full application (if EOI approved)
+├── SovAI Batch 2 application prep (Challenge 3)
+└── First customer conversations (GPU compute)
 
-> *"Kanay holds active SAFE instruments (Friends & Family), a £10M convertible note (April 2024, GPU collateral), and is running a concurrent Seed fundraise (SEIS/EIS eligible). Sovereign AI equity investment is being pursued in parallel. The IUK loan sits alongside this equity stack as the debt layer — preserving equity dilution while funding the specific infrastructure the trading operation requires."*
+31 Dec 2026
+└── SovAI Batch 2 submission
+
+Jan 2027
+├── SovAI Batch 2 outcome (government contract?)
+├── IUK full application submitted
+└── SovAI equity close?
+
+Q1 2027
+├── IUK loan drawn down
+├── Core infrastructure built
+└── Applied intelligence v1 shipped
+```
