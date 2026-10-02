@@ -1,79 +1,67 @@
-# Revenue, Customers & Commercialisation — Sovereign AI
+# Sovereign AI Fund — Request for Founders
 
-> Separated from core IUK Innovation Loan documents. Sovereign AI is a customer/supplier relationship, not part of the loan application itself.
-
----
-
-## What is Sovereign AI?
-
-The UK's sovereign venture fund backed by **£500M government capital**. It invests equity (£1M–£10M per company, Pre-Seed to Growth) into British AI startups, alongside compute access, talent visas, and R&D procurement contracts.
-
-**Managing Partner:** Suzanne Ashman
-
-**Portfolio includes:** Basecamp Research, OLIX (UK unicorn), CuspAI ($450M Series B), Isomorphic Labs, Ineffible Intelligence, Callosum.
+> **Primary brief:** sovereignai.gov.uk/requestforfounders
+> **Four Focus Areas** — these are what Sovereign AI is looking for from founders.
 
 ---
 
-## What Sovereign AI Offers Kanay
+## The Four Focus Areas
 
-| Offering | Details | Relevance to Kanay |
-|---|---|---|
-| **Equity investment** | £1M–£10M, Pre-Seed to Growth | Potential follow-on investment |
-| **Compute access** | Up to 1M GPU hours per startup | Reduces build cost for AI layer |
-| **R&D Procurement contracts** | £250k–£10M per project | First government customer |
-| **Strategic assets** | Research access, national datasets | Data infrastructure |
-| **Talent visas** | Fast-tracked AI specialist visas | Hire global AI talent |
+### 1. Compute & Infrastructure — "Build the Substrate"
+*"Compute is no longer just a commercial problem. It is strategic infrastructure."*
 
----
+Novel hardware architectures · Inference optimisation and scheduling · Orchestration for regulated industries · Unlocking cost-prohibitive workloads
 
-## Five Focus Areas (Kanay Maps to #1)
-
-1. **Compute & Infrastructure** ← Kanay's primary fit
-2. Foundation Models
-3. AI in Health & Life Sciences
-4. Scientific Discovery
-5. Trust, Safety & Assurance
-
-Kanay's spatial intelligence + GPU compute + energy management stack sits squarely in Challenge 3: **Increase compute efficiency**.
+**Kanay's fit:** Containerised GPU clusters + energy-aware compute scheduling + owned battery/renewable generation → genuine compute efficiency innovation.
 
 ---
 
-## The Two Sovereign AI Instruments
+### 2. Foundation Models — "Reinvent the Model"
+Genuinely novel architectures · New training paradigms · Translating foundational research into commercial products · Compute-efficient approaches
 
-### 1. Equity Investment (Venture Fund)
-- Apply anytime: sovereignai.gov.uk
-- Cheque: £1M–£10M at market terms
-- Stage: Pre-Seed to Growth
-
-### 2. R&D Procurement (SovAI Scheme)
-- Apply via Approved Supplier List → then compete per batch
-- **Batch 2 deadline: 31 December 2026** (outcome 29 Jan 2027)
-- Contract value: £250k–£10M
-- IP: supplier owns it; government gets usage licence
+**Kanay's fit:** Applied intelligence — domain expertise embedded in the model layer. Spatial intelligence taxonomy. Sector-specific overlays. Efficient training on proprietary commercial data.
 
 ---
 
-## How This Fits the Revenue Picture
+### 3. Health & Life Sciences — "Medicine, Rewritten"
+AI-designed novel therapeutics · Multi-omics integration · NHS workflow integration · Regulatory pathway
+
+**Kanay's fit:** Sell compute + applied intelligence to biotech firms. UK/Ireland/Europe pharma as customers. US as larger market. Speed to deployment is the priority.
+
+---
+
+### 4. Scientific Discovery — "Accelerate Science"
+Materials design · Molecular engineering · Lab-in-the-loop platforms · Scientific data infrastructure
+
+**Kanay's fit:** Compute substrate for scientific workloads. Not primary focus.
+
+---
+
+## What Sovereign AI Offers
+
+| | |
+|---|---|
+| **Equity** | £1M–£10M at market terms, Pre-Seed to Growth |
+| **Compute** | Up to 1M GPU hours on UK supercomputers per startup |
+| **Network** | Gateway to UK regulated sectors, government, portfolio companies |
+| **Talent** | Fast-tracked AI specialist visas |
+| **Procurement** | R&D contracts £250k–£10M (see r-and-d-procurement.md) |
+
+---
+
+## Kanay's Three-Part SovAI Strategy
 
 ```
-Kanay Revenue Stack
-│
-├── Sovereign AI R&D Procurement (first customer)
-│   └── Challenge 3: Compute efficiency
-│   └── Contract: £1M–£3M (competitive tender)
-│
-├── AI companies (SovAI portfolio companies are GPU buyers)
-│   └── Sell compute hours + spatial intelligence layer
-│   └── H100 pricing benchmark: $3/GPU hour
-│
-└── Energy trading counterparties
-    └── Power market revenue
-    └── Battery/storage arbitrage
+1. EQUITY        → Sovereign AI invests £1M–£10M → network, institutional signal, government pipeline
+2. PROCUREMENT   → Challenge 3 R&D contract → first government customer, IP owned by Kanay
+3. COMPUTE SALES → Sell GPU hours + applied intelligence to SovAI portfolio companies + biotech sector
 ```
 
 ---
 
-## Key SovAI Links
-- Main: https://www.sovereignai.gov.uk
-- EOI/Approved Supplier List: https://www.sovereignai.gov.uk/requestforfounders
-- Insights: https://www.sovereignai.gov.uk/insights
+## Links
+- Main: sovereignai.gov.uk
+- Request for Founders (THE BRIEF): sovereignai.gov.uk/requestforfounders
+- Insights: sovereignai.gov.uk/insights
+- R&D Procurement: see r-and-d-procurement.md
+- References: ../references/references.md
