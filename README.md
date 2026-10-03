@@ -18,11 +18,12 @@
 06-presentation/                    ← OpenDesign pitch deck materials
 07-revenue-customers-commercialisation/
   sovai/
-    README.md                       ← SovAI full overview — all 5 offerings
+    README.md                      ← SovAI full overview — all 5 offerings
     procurement/                    ← R&D procurement scheme, Challenge 3
     compute-access/                ← AI Research Resource sovereign compute
     strategic-assets/              ← Data infrastructure funding
     visa-support/                  ← Global talent visa reimbursement
+08-iuk-competition-2505/           ← Full competition brief, FAQs, webinars
 references/                        ← All citations and sources
 ```
 
