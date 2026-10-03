@@ -8,6 +8,9 @@ All notable changes to the Innovate UK Innovation Loan working repository.
 
 ### Added
 
+**EOI Draft**
+- `04-eoi-draft/kanay_eoi_project_summary.md` — Full draft EOI project summary. 1,000-word narrative covering vision, innovation, market, team, funding gap, economic impact. All 11 EOI form questions answered. Includes full expensing note on GPU capex and DSCR context.
+
 **Documents (this release)**
 - `08-iuk-competition-2505/competition-overview.md` — Full scraped content from IFS portal (competition 2505): all 11 EOI questions, six Industrial Strategy sectors, assessment criteria, exclusion criteria, key dates
 - `08-iuk-competition-2505/faqs-innovation-loans.md` — Full 9-page PDF parsed from IUK Business Connect: debenture details, covenants (liquidity 1.1x, DSCR 1.2x), drawdown mechanics, pre-revenue eligibility clarified
