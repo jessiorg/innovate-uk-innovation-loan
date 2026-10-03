@@ -47,6 +47,12 @@ All notable changes to the Innovate UK Innovation Loan working repository.
 **EOI Draft**
 - `04-eoi-draft/EOI_PROJECT_SUMMARY.md` — Template and guidance for the 1,000-word project summary + 11-question form
 
+**Data Room (companion docs to the EOI summary — supports the "highly innovative" + "commercialisation" sections)**
+- `07-revenue-customers-commercialisation/data-room/Kanay-Energy-Materials-Intelligence-Overview.md` — Company narrative: energy, materials and intelligence company; Source-Transform-Supply commercial model; transformation ladder thesis; 100 MW integrated portfolio with knock-out resilience test (1.8B annual net profit at 0.3yr payback)
+- `07-revenue-customers-commercialisation/data-room/Kanay-Transformation-Ladder.md` — Economic deep-dive: per-stage capex/opex/utilisation/payback (1 MW basis), sensitivity analysis (GPU pricing -30%, AI video ASP collapse), realistic portfolio mix, oil-major analogy
+- `07-revenue-customers-commercialisation/data-room/Kanay-Worked-Examples.md` — Two deal-level worked examples: Elcogen SOFC → AI compute (stake + offtake + 5yr P&L + exit via REIT), Magnotherm + biomagnets (cooling-as-service + magnet channel finance + 5yr P&L)
+- `07-revenue-customers-commercialisation/data-room/Kanay-Investor-FAQ.md` — Top 20 investor DD questions with candid responses across business model, competitive position, capital/scaling, risk/resilience, team/execution, partners; "questions we ask ourselves" subsection
+
 **References**
 - `references/references.md` — 21 citations: IUK sources (9), Sovereign AI (7), Kanay internal (5)
 
