@@ -120,6 +120,39 @@
 
 ---
 
+### Group E: Urban Energy Infrastructure (Future Revenue Stream)
+
+#### E1 — Urban Multi-Service Energy Hub
+**What it is:** Leased warehouse facility in an urban/residential location, configured as a multi-service hub combining EV charging infrastructure with sodium battery storage, serviced amenities, and last-mile logistics services. Uses the same energy management system (A1) and battery arbitrage model (A2) as the core GPU cluster project — demonstrating that the energy infrastructure is a platform technology with multiple commercial applications.
+
+**Concept:**
+- **EV charging**: Parking spaces with charging points, connected to sodium battery storage (Unit45 containerised format)
+- **Carport structure**: Canopy built over parking rows, with cabling from roof-mounted solar if available
+- **Sodium battery**: Unit45 45ft containerised battery — swapped out when depleted rather than recharged on-site. Switch-and-swap model eliminates recharge downtime
+- **Indoor hub**: Inside the warehouse — mail/package collection point, food kiosk, rest area, co-working space, waiting area
+- **Valet services**: Car wash, cleaning, dry cleaning drop-off, parcel/post collection
+- **Single infrastructure, two revenue models**: Energy arbitrage (battery trading) + service fees (charging, amenities, logistics)
+
+**TRL: 6** — Energy arbitrage model (A2) is proven at TRL 7–8. The multi-service hub concept is operational in analogous formats (service stations, logistics hubs). Specific deployment (Unit45 container swap, urban site selection) is at TRL 6 — pre-deployment site selection and commercial negotiation stage.
+
+**Commercial Readiness: Pre-commercial** — Energy arbitrage model is live. Site identification in progress. Unit45 commercial discussions preliminary. Full commercial deployment: 2028.
+
+**Methodology:** Unit45 containerised battery specifications reviewed. Energy arbitrage model validated against UK grid price data. Urban logistics demand assessed via market research. Site selection based on proximity to residential density, transport nodes, and grid connection capacity.
+
+**Why this belongs in the IUK application:**
+This is not the primary commercial output of the loan. It is mentioned to demonstrate that the energy infrastructure funded by the IUK loan is a **platform technology** — applicable to multiple commercial contexts beyond GPU compute. The energy management system and battery arbitrage model developed for the GPU cluster are directly applicable to urban EV charging infrastructure. This shows:
+1. The technology has multiple revenue streams, reducing IUK's credit risk
+2. The energy infrastructure is not dependent on a single use case
+3. The arbitrage model is a proven commercial product, not a research exercise
+
+**Revenue model:**
+- EV charging: revenue per kWh delivered + service fee per session
+- Battery swap: lease fee per swap cycle (passed through to Unit45)
+- Amenities: mail collection, co-working daily rate, food kiosk rent
+- Valet services: car wash, cleaning — revenue share or flat fee
+
+---
+
 ## Summary Table
 
 | Technology | TRL | Commercial Readiness | Revenue Timeline |
@@ -132,6 +165,7 @@
 | C1 — KCC taxonomy | 8–9 | Late beta | Q3 2027 |
 | C2 — Spatial intelligence layer | 5–6 | Development | Q2 2027–2028 |
 | D1 — Kanay Harness | 7 | Beta | Q4 2027 |
+| E1 — Urban energy hub (EV + amenities) | 6 | Pre-commercial | 2028 |
 
 ---
 
@@ -140,6 +174,8 @@
 All primary revenue-generating outputs — GPU compute (B1, B2) and energy trading (A2) — are at **TRL 7 or above**, commercially ready or in late beta. The Innovation Loan funds the deployment and initial commercial operation of these proven technologies.
 
 The Innovation Loan is not funding blue-sky research. It is funding the capital infrastructure and commercial ramp-up of technologies that already exist and already have customers.
+
+The energy management system (A1) and battery arbitrage model (A2) are platform technologies — they are applicable across multiple commercial contexts (GPU compute, urban EV charging, grid services). This demonstrates that the energy infrastructure funded by the IUK loan is not dependent on a single use case.
 
 The KCC taxonomy (C1) and Kanay Harness (D1) are platform assets that are at TRL 8 and operational — these are already built and in use. They do not require IUK funding.
 
@@ -152,3 +188,4 @@ The KCC taxonomy (C1) and Kanay Harness (D1) are platform assets that are at TRL
 - KANAY_CLASSIFICATION_REGISTRY.md — jessiorg/kanay-classifications (public GitHub)
 - KANAY_HARNESS_SPEC.md — Kanay Harness specification (private repo)
 - Kanay compute-trading models — internal models (kanay-context)
+- Unit45 sodium battery systems — unit45.com (commercial specifications)
