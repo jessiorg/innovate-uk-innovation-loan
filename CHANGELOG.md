@@ -38,6 +38,7 @@ All notable changes to the Innovate UK Innovation Loan working repository.
 
 **Loan Mechanics**
 - `02-financial-mechanics/loan_mechanics.md` — Three-phase interest structure (3.7% payable + 3.7% deferred), debenture terms, pre-revenue clarity confirmed from primary sources
+- `02-financial-mechanics/technology_readiness.md` — Technology readiness matrix: TRL 5-9 for all 8 technologies across 4 groups (Energy, GPU, Intelligence, Platform). Shows GPU cluster (TRL 8-9) and energy trading (TRL 7-8) are commercially ready. Commercial readiness status and methodologies for each.
 
 **Sovereign AI (separate from IUK loan — first customer/supplier)**
 - `07-revenue-customers-commercialisation/sovai/README.md` — Five offerings, four focus areas, "contact now" strategy
