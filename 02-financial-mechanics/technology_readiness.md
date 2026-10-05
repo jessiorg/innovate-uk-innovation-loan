@@ -210,6 +210,15 @@ The KCC taxonomy (C1) and Kanay Harness (D1) are platform assets that are at TRL
 - Green hydrogen — byproduct of water electrolysis
 - Potential for methanol and other synthetic fuels (expansion under development)
 
+**Cost benchmarks (public):**
+- Solar power target: below £10/MWh DC
+- SNG production target: **80% cheaper than any previous producer**
+- Hardware cost: **>11x lower** than industry benchmarks (£/kW)
+- Electrolyser cost: **>90% cheaper** than World Bank alkaline electrolyser standards
+- Engineering: removed ~60% of peripheral hardware vs standard grid-connected systems
+- Target: cost parity with natural gas in certain European markets by 2028
+- UK gas prices: £50/MWh (82% YoY increase, 7x US domestic prices)
+
 **Why this matters for Kanay:**
 
 Rivan Industries represents the type of UK advanced manufacturer that Kanay's energy infrastructure serves. They have a 1MW solar-powered system that runs continuously — but solar is intermittent. They need:
@@ -220,17 +229,26 @@ Rivan Industries represents the type of UK advanced manufacturer that Kanay's en
 **The circular energy relationship:**
 
 ```
-Rivan solar array → excess power at midday → Kanay GPU compute
+Rivan solar array → excess power at midday (£10/MWh target)
+Kanay GPU compute at midday → cheap compute window
 Kanay compute during low-grid-price windows → Rivan process data
 Kanay energy arbitrage revenue → lower compute prices for Rivan
-Rivan SNG production → feeds into UK gas grid → energy security
+Rivan SNG at £50/MWh (UK gas price) → 80% cheaper than previous producers
+Rivan SNG production → feeds UK gas grid → energy security + import substitution
+UK gas import bill: £300bn+/yr → domestic production displaces imports
 ```
+
+**Market context:**
+- EU imports £300bn+ of fossil fuels annually
+- UK gas prices at £50/MWh — 82% YoY increase, 7x US domestic prices
+- Rivan targeting cost parity with natural gas by 2028
+- 10-unit scale-up in 2027 = up to 10MW of synthetic fuel capacity
 
 **Implication for Kanay's IUK application:**
 
-Rivan Industries and similar UK advanced manufacturers (ammonia, steel, chemicals) are potential GPU compute customers. The energy infrastructure Kanay builds is not only for AI companies — it serves the broader UK industrial decarbonisation ecosystem.
+Rivan Industries and similar UK advanced manufacturers (ammonia, steel, chemicals, cement) are potential GPU compute customers. The energy infrastructure Kanay builds is not only for AI companies — it serves the broader UK industrial decarbonisation ecosystem. With UK gas at £50/MWh and EU fossil fuel imports at £300bn+/yr, the commercial case for domestic synthetic fuel production is compelling.
 
-The 1MW solar system, battery storage, and grid connection required by Rivan represents the same type of energy infrastructure Kanay designs and operates. Rivan's $34M raise and fast scale-up (10 units in 2027) shows there is a large market for the energy management capability Kanay is building.
+The 1MW solar system, battery storage, and grid connection required by Rivan represents the same type of energy infrastructure Kanay designs and operates. Rivan's $34M raise and fast scale-up (10 units in 2027) validates the market. If each Rivan unit needs HPC for process optimisation, data analytics, and AI-driven scheduling — that is a direct compute customer for Kanay.
 
 **Sources:**
 - rivan.com — company website
