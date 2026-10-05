@@ -144,11 +144,15 @@ No personal guarantees. No security over principal private residences. IP owned 
 | Asset | Useful life | Decision | Rationale |
 |---|---|---|---|
 | GPU servers | ~5 years | **Buy** | Matches project horizon — full depreciation within project period |
-| Energy management system | ~5 years | **Buy** | Same — core project infrastructure |
+| Energy management system | ~5 years | **Buy** | Core project infrastructure — full expensing + depreciation |
+| SNG generation unit (e.g. Rivan 1MW) | ~5–10 years | **Buy** | UK manufacturer (Rivan Industries, £156/kW = £156K per 1MW unit) — firm power, matches project horizon, full expensing |
+| Sodium battery (Unit45 45ft container) | ~5 years | **Buy or lease** | Swap model — may be more economic to lease/swap |
 | Office workstations | ~3 years | **Lease** | Shorter than project — lease instead |
 | Networking / power infrastructure | ~3–5 years | **Buy or lease** | On the edge — lease if uncertain |
 | Office furniture | ~10 years | **Don't claim** | Not project-specific |
 | Specialist test equipment | ~5 years | **Buy** | Matches project horizon |
+
+**Note on SNG units:** A 1MW Rivan system costs £156K. For a 2MW GPU cluster, 2× Rivan units = £312K capex. SNG units are a capital purchase — eligible under the loan, depreciated over their useful life within the project horizon. Full expensing applies under Autumn Statement 2023.
 
 **Why buy equipment with 5-year useful life:**
 - The 5-year project period aligns with the asset's useful life

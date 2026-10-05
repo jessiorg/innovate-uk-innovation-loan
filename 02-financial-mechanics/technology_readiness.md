@@ -120,30 +120,60 @@
 
 ---
 
-### Group E: Urban Energy Infrastructure (Future Revenue Stream)
+### Group E: Firm Power and Energy Hub
 
-#### E1 — Urban Multi-Service Energy Hub
-**What it is:** Leased warehouse facility in an urban/residential location, configured as a multi-service hub combining EV charging infrastructure with sodium battery storage, serviced amenities, and last-mile logistics services. Uses the same energy management system (A1) and battery arbitrage model (A2) as the core GPU cluster project — demonstrating that the energy infrastructure is a platform technology with multiple commercial applications.
+#### E1 — Kanay Firm Power System (SNG + Battery)
+**What it is:** Kanay builds its own firm power infrastructure using SNG generation (Rivan) + sodium battery storage (Unit45) + the energy management system (A1). The combination means Kanay generates its own power, stores it, and dispatches it to power GPU compute. The grid becomes backup, not primary. This is the foundational energy asset — everything else (GPU compute, urban hub, energy trading) runs off it.
 
 **Concept:**
-- **EV charging**: Parking spaces with charging points, connected to sodium battery storage (Unit45 containerised format)
-- **Carport structure**: Canopy built over parking rows, with cabling from roof-mounted solar if available
-- **Sodium battery**: Unit45 45ft containerised battery — swapped out when depleted rather than recharged on-site. Switch-and-swap model eliminates recharge downtime
-- **Indoor hub**: Inside the warehouse — mail/package collection point, food kiosk, rest area, co-working space, waiting area
+- **SNG generation**: 1MW Rivan system — converts solar + water + biogenic CO₂ into storable SNG. SNG is pipeline-transported or trucked to the GPU facility. Powers a gas generator or CHP engine, providing firm baseload power.
+- **Battery storage**: Unit45 45ft sodium battery container — provides short-duration peak coverage and grid balancing. Swapped out when depleted (switch-and-swap model).
+- **Energy management system (A1)**: Optimises dispatch across SNG, battery, and grid — maximises cheapest power source at any given hour.
+- **Virtual pipeline**: SNG from distributed Rivan units transported to the GPU facility via the gas grid or by tanker.
+
+**Why firm power matters:**
+- GPU compute needs 24/7 power. Grid power is intermittent and expensive during peak hours.
+- With firm power, Kanay's compute cost per kWh is predictable and low — not exposed to grid spot price spikes.
+- The same energy asset powers: GPU compute + urban hub + energy trading.
+- Producing SNG on-site or near-site means Kanay controls its energy supply chain.
+
+**TRL: 6–7** — SNG generation (Rivan) is TRL 8–9 (1MW commissioned 2026). Battery storage (Unit45) is TRL 7–8 (operational systems). Kanay's energy management system integration is TRL 6.
+
+**Commercial Readiness: Development** — SNG unit procurement in progress. Unit45 discussions preliminary. Full deployment: 2027–2028 alongside GPU cluster.
+
+**Energy balance:**
+
+| Source | Capacity | Role |
+|---|---|---|
+| Rivan SNG system | 1MW per unit | Firm baseload — runs when solar/wind unavailable |
+| Unit45 sodium battery | ~1MW / 4MWh | Peak coverage, grid balancing |
+| Grid connection | Backup | When SNG + battery are insufficient |
+| Solar (Rivan integrated) | <£10/MWh | Free power when available |
+
+For a 2MW GPU cluster: 2× Rivan SNG units (£312K capex) + 2× Unit45 batteries = firm power at ~£500K capex.
+
+**Revenue model:**
+- GPU compute: powered by firm baseload — lower cost per kWh than grid
+- Energy arbitrage: excess SNG capacity sold to grid or traded
+- Carbon certificates: SNG is carbon-neutral — additional revenue per MWh
+- Energy hub: surplus capacity serves urban EV charging
+
+---
+
+#### E2 — Urban Multi-Service Energy Hub
+**What it is:** Leased warehouse facility configured as a multi-service hub: EV charging infrastructure, sodium battery storage, serviced amenities, and last-mile logistics. The same energy management system (A1) and battery arbitrage model (A2) serves both the GPU cluster and this hub — demonstrating that the energy infrastructure is a platform technology.
+
+**Concept:**
+- **EV charging**: Parking spaces with charging points, connected to sodium battery storage (Unit45 containerised)
+- **Carport structure**: Canopy built over parking rows, with cabling from roof-mounted solar
+- **Sodium battery**: Unit45 45ft containerised battery — swapped out when depleted. Switch-and-swap model eliminates recharge downtime
+- **Indoor hub**: Mail/package collection, food kiosk, rest area, co-working space, waiting area
 - **Valet services**: Car wash, cleaning, dry cleaning drop-off, parcel/post collection
-- **Single infrastructure, two revenue models**: Energy arbitrage (battery trading) + service fees (charging, amenities, logistics)
+- **Single infrastructure, multiple revenue models**: Energy arbitrage + EV charging + service fees
 
-**TRL: 6** — Energy arbitrage model (A2) is proven at TRL 7–8. The multi-service hub concept is operational in analogous formats (service stations, logistics hubs). Specific deployment (Unit45 container swap, urban site selection) is at TRL 6 — pre-deployment site selection and commercial negotiation stage.
+**TRL: 6** — Energy arbitrage model (A2) is proven at TRL 7–8. Multi-service hub concept is operational in analogous formats. Unit45 deployment is at TRL 7.
 
-**Commercial Readiness: Pre-commercial** — Energy arbitrage model is live. Site identification in progress. Unit45 commercial discussions preliminary. Full commercial deployment: 2028.
-
-**Methodology:** Unit45 containerised battery specifications reviewed. Energy arbitrage model validated against UK grid price data. Urban logistics demand assessed via market research. Site selection based on proximity to residential density, transport nodes, and grid connection capacity.
-
-**Why this belongs in the IUK application:**
-This is not the primary commercial output of the loan. It is mentioned to demonstrate that the energy infrastructure funded by the IUK loan is a **platform technology** — applicable to multiple commercial contexts beyond GPU compute. The energy management system and battery arbitrage model developed for the GPU cluster are directly applicable to urban EV charging infrastructure. This shows:
-1. The technology has multiple revenue streams, reducing IUK's credit risk
-2. The energy infrastructure is not dependent on a single use case
-3. The arbitrage model is a proven commercial product, not a research exercise
+**Commercial Readiness: Pre-commercial** — Site identification in progress. Unit45 discussions preliminary. Full commercial deployment: 2028.
 
 **Revenue model:**
 - EV charging: revenue per kWh delivered + service fee per session
@@ -165,7 +195,8 @@ This is not the primary commercial output of the loan. It is mentioned to demons
 | C1 — KCC taxonomy | 8–9 | Late beta | Q3 2027 |
 | C2 — Spatial intelligence layer | 5–6 | Development | Q2 2027–2028 |
 | D1 — Kanay Harness | 7 | Beta | Q4 2027 |
-| E1 — Urban energy hub (EV + amenities) | 6 | Pre-commercial | 2028 |
+| E1 — Firm power system (SNG + battery) | 6–7 | Development | 2027–2028 |
+| E2 — Urban energy hub (EV + amenities) | 6 | Pre-commercial | 2028 |
 
 ---
 
