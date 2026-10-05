@@ -11,6 +11,12 @@ All notable changes to the Innovate UK Innovation Loan working repository.
 **EOI Draft**
 - `04-eoi-draft/kanay_eoi_project_summary.md` — Full draft EOI project summary. 1,000-word narrative covering vision, innovation, market, team, funding gap, economic impact. All 11 EOI form questions answered. Includes full expensing note on GPU capex and DSCR context.
 
+**Q&A Notes**
+- `08-iuk-competition-2505/qa-notes.md` — 13-item Q&A from EOI preparation session covering: drawdown mechanics, pre-commercial costs, working capital vs capex, overseas procurement, energy exchange membership, debenture scope, self-funded assets, financial template, change control, project duration, buy vs lease framework
+
+**Financial Models**
+- `05-financial-models/shard_office_scenario.md` — Shard office scenario addendum: current availability (Level 10 20,075 sq ft, Level 13D 4,706 sq ft etc.), market benchmarks (£139-149 psf all-in), space requirements, exit clause structure (3-month break at annual review), 5-year cost model (~£3M total), energy trading revenue offset phasing
+
 **Documents (this release)**
 - `08-iuk-competition-2505/competition-overview.md` — Full scraped content from IFS portal (competition 2505): all 11 EOI questions, six Industrial Strategy sectors, assessment criteria, exclusion criteria, key dates
 - `08-iuk-competition-2505/faqs-innovation-loans.md` — Full 9-page PDF parsed from IUK Business Connect: debenture details, covenants (liquidity 1.1x, DSCR 1.2x), drawdown mechanics, pre-revenue eligibility clarified
