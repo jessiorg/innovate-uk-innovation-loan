@@ -133,7 +133,40 @@ No personal guarantees. No security over principal private residences. IP owned 
 
 ---
 
-## 8. Financial Template — Where Is It?
+## 8. Capital Costs — Buy vs Lease
+
+**Q: Can we claim the full purchase price of GPU servers, or only depreciation? And should we buy or lease equipment?**
+
+**A:** First principles — real costs, real invoices. The loan covers what you've actually paid.
+
+**Buy vs lease decision:**
+
+| Asset | Useful life | Decision | Rationale |
+|---|---|---|---|
+| GPU servers | ~5 years | **Buy** | Matches project horizon — full depreciation within project period |
+| Energy management system | ~5 years | **Buy** | Same — core project infrastructure |
+| Office workstations | ~3 years | **Lease** | Shorter than project — lease instead |
+| Networking / power infrastructure | ~3–5 years | **Buy or lease** | On the edge — lease if uncertain |
+| Office furniture | ~10 years | **Don't claim** | Not project-specific |
+| Specialist test equipment | ~5 years | **Buy** | Matches project horizon |
+
+**Why buy equipment with 5-year useful life:**
+- The 5-year project period aligns with the asset's useful life
+- Full depreciation falls entirely within the project period — no residual value
+- Full expensing under Autumn Statement 2023: claim 100% first-year capital allowance from HMRC
+- Loan draws reimburse the actual cash payment — £2M invoice, £2M claimed
+
+**Why lease shorter-life equipment:**
+- Leasing keeps the cost within the project period without claiming residual value
+- Lease payments during the project are eligible costs
+- No residual value complication at project end
+
+**Summary:**
+> *"Real costs, real invoices, real payments. The loan draws down to reimburse what has been incurred and paid. Assets with a useful life matching or shorter than the project period are purchased — full depreciation within the project horizon. Assets with shorter useful lives are leased — payments during the project period are eligible. Office furniture and non-project equipment are not claimed."*
+
+---
+
+## 10. Financial Template — Where Is It?
 
 **Q: Is there a financial spreadsheet template to download?**
 
@@ -145,7 +178,7 @@ IUK Financial Template 2023 (`.xlsx`) is saved in the repo for reference — it 
 
 ---
 
-## 9. Change Control — What Requires Approval?
+## 11. Change Control — What Requires Approval?
 
 **Q: If things change in the project, do we need approval or just work towards the targets?**
 
@@ -164,7 +197,7 @@ The quarterly MSP meetings are where changes are aligned. The relationship with 
 
 ---
 
-## 10. Project Duration — How Many Quarters to Draw Down?
+## 12. Project Duration — How Many Quarters to Draw Down?
 
 **Q: How many quarters do we have to deploy the full £5M?**
 
