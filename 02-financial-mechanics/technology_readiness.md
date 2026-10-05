@@ -189,3 +189,50 @@ The KCC taxonomy (C1) and Kanay Harness (D1) are platform assets that are at TRL
 - KANAY_HARNESS_SPEC.md — Kanay Harness specification (private repo)
 - Kanay compute-trading models — internal models (kanay-context)
 - Unit45 sodium battery systems — unit45.com (commercial specifications)
+
+---
+
+## Appendix: Potential UK Customers and the Circular Energy Economy
+
+### Rivan Industries — UK Synthetic Fuel Manufacturer
+
+**Company:** Rivan Industries Ltd
+**HQ:** 1-11 Galleywall Road, Bermondsey, London SE16 3PB
+**Facility:** Wiltshire, UK
+**Founded:** October 2023
+**Stage:** Series A — $34M raised (2026)
+**Investors:** IQ Capital (lead), others
+
+**Technology:** Modular synthetic natural gas (SNG) system. Combines water electrolysis, atmospheric CO₂ capture, and catalytic reactors into a vertically integrated, standalone unit. Powered by dedicated off-grid solar arrays. World's first completely off-grid 1MW SNG installation — commissioned August 2026. 100kW pilot reactor achieved 99.7% grid-spec gas purity.
+
+**Products:**
+- Synthetic natural gas (SNG) — carbon-neutral, pipeline-compatible
+- Green hydrogen — byproduct of water electrolysis
+- Potential for methanol and other synthetic fuels (expansion under development)
+
+**Why this matters for Kanay:**
+
+Rivan Industries represents the type of UK advanced manufacturer that Kanay's energy infrastructure serves. They have a 1MW solar-powered system that runs continuously — but solar is intermittent. They need:
+1. **Grid power during low-sun periods** — Kanay's energy-aware scheduling can route compute during Rivan's low-generation windows
+2. **Predictable energy costs** — fixed-price compute contracts funded by energy arbitrage revenue
+3. **Spare compute capacity** — Rivan needs HPC for process optimisation and AI/ML modelling
+
+**The circular energy relationship:**
+
+```
+Rivan solar array → excess power at midday → Kanay GPU compute
+Kanay compute during low-grid-price windows → Rivan process data
+Kanay energy arbitrage revenue → lower compute prices for Rivan
+Rivan SNG production → feeds into UK gas grid → energy security
+```
+
+**Implication for Kanay's IUK application:**
+
+Rivan Industries and similar UK advanced manufacturers (ammonia, steel, chemicals) are potential GPU compute customers. The energy infrastructure Kanay builds is not only for AI companies — it serves the broader UK industrial decarbonisation ecosystem.
+
+The 1MW solar system, battery storage, and grid connection required by Rivan represents the same type of energy infrastructure Kanay designs and operates. Rivan's $34M raise and fast scale-up (10 units in 2027) shows there is a large market for the energy management capability Kanay is building.
+
+**Sources:**
+- rivan.com — company website
+- IQ Capital press release, August 2026
+- LinkedIn @rivanindustries
