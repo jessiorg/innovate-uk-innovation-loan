@@ -158,6 +158,12 @@ For a 2MW GPU cluster: 2× Rivan SNG units (£312K capex) + 2× Unit45 batteries
 - Carbon certificates: SNG is carbon-neutral — additional revenue per MWh
 - Energy hub: surplus capacity serves urban EV charging
 
+**Why this belongs in the IUK application:**
+The IUK loan funds the GPU cluster and energy management system. The firm power infrastructure (E1) demonstrates that the energy management system (A1) is a **platform technology** — applicable to SNG generation, battery storage, and grid services simultaneously. This matters for IUK's credit assessment:
+1. The revenue model is not dependent on GPU compute alone — multiple parallel revenue streams
+2. The energy infrastructure creates a natural hedge against GPU compute market risk
+3. UK manufacturers like Rivan are deploying GW-scale SNG capacity — Kanay's energy management software serves this entire ecosystem
+
 ---
 
 #### E2 — Urban Multi-Service Energy Hub
@@ -180,6 +186,9 @@ For a 2MW GPU cluster: 2× Rivan SNG units (£312K capex) + 2× Unit45 batteries
 - Battery swap: lease fee per swap cycle (passed through to Unit45)
 - Amenities: mail collection, co-working daily rate, food kiosk rent
 - Valet services: car wash, cleaning — revenue share or flat fee
+
+**Why this belongs in the IUK application:**
+The urban energy hub (E2) demonstrates that the energy management system (A1) and battery arbitrage model (A2) serve multiple commercial contexts simultaneously — GPU compute, urban EV charging, urban logistics. This is not a single-product bet. The hub also shows that the same physical infrastructure (battery storage, power connection) generates multiple revenue streams, reducing IUK's credit risk.
 
 ---
 
