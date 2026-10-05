@@ -210,11 +210,21 @@ The KCC taxonomy (C1) and Kanay Harness (D1) are platform assets that are at TRL
 - Green hydrogen — byproduct of water electrolysis
 - Potential for methanol and other synthetic fuels (expansion under development)
 
-**Cost benchmarks (public):**
+**Cost benchmarks (public, from rivan.com imagery):**
+
+*1MW system capex (£/kW):*
+- **Rivan Industries 1MW system: £156/kW**
+- Industry 1MW benchmark: £1,976/kW
+- Rivan is **11x lower** than industry benchmark
+
+*Electrolyser capex (£/kW):*
+- **Rivan Electrolyser: £59/kW**
+- World Bank Electrolyser Benchmark: £743/kW
+- Rivan is **12x lower** than World Bank benchmark
+
+*Operating cost:*
 - Solar power target: below £10/MWh DC
 - SNG production target: **80% cheaper than any previous producer**
-- Hardware cost: **>11x lower** than industry benchmarks (£/kW)
-- Electrolyser cost: **>90% cheaper** than World Bank alkaline electrolyser standards
 - Engineering: removed ~60% of peripheral hardware vs standard grid-connected systems
 - Target: cost parity with natural gas in certain European markets by 2028
 - UK gas prices: £50/MWh (82% YoY increase, 7x US domestic prices)
