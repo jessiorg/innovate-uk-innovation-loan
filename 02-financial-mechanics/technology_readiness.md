@@ -202,13 +202,33 @@ The KCC taxonomy (C1) and Kanay Harness (D1) are platform assets that are at TRL
 **Founded:** October 2023
 **Stage:** Series A — $34M raised (2026)
 **Investors:** IQ Capital (lead), others
+**TRL:** 8–9 (100kW pilot proven at TRL 9; 1MW commissioned August 2026)
 
-**Technology:** Modular synthetic natural gas (SNG) system. Combines water electrolysis, atmospheric CO₂ capture, and catalytic reactors into a vertically integrated, standalone unit. Powered by dedicated off-grid solar arrays. World's first completely off-grid 1MW SNG installation — commissioned August 2026. 100kW pilot reactor achieved 99.7% grid-spec gas purity.
+**System architecture:**
+```
+Off-grid solar array (vertically integrated, <£10/MWh DC)
+         ↓
+Water electrolysis → Green hydrogen (H₂)
+         ↓
+Liquid biogenic CO₂ from nearby anaerobic digestion (AD) plant
+         ↓
+Cryogenic CO₂ storage tanks
+         ↓
+H₂ + CO₂ → methanation reactor
+         ↓
+GSMR-spec SNG → European gas grid injection
+```
+
+**CO₂ source (important):** Current system uses **liquid biogenic CO₂ from a nearby anaerobic digestion (AD) plant** — NOT direct air capture. Biogenic CO₂ is vented from AD facilities across Europe (millions of tonnes annually). Future systems will incorporate DAC (currently in development).
+
+**GSMR spec:** SNG meets **Gas Safety Management Regulations** — certified for direct injection into the European gas grid. No upgrading or blending required.
 
 **Products:**
-- Synthetic natural gas (SNG) — carbon-neutral, pipeline-compatible
-- Green hydrogen — byproduct of water electrolysis
-- Potential for methanol and other synthetic fuels (expansion under development)
+- Synthetic natural gas (SNG) — GSMR spec, grid-injection ready
+- Green hydrogen — the electrolyser produces H₂ as intermediate; can also be sold separately
+- Methanol potential — under development
+
+**What the system can make without CO₂:** Green hydrogen (H₂) alone from water electrolysis — already a valuable product for UK industrial consumers (ammonia, steel, chemicals). The CO₂ step is what converts it to grid-ready SNG.
 
 **Cost benchmarks (public, from rivan.com imagery):**
 
@@ -239,14 +259,16 @@ Rivan Industries represents the type of UK advanced manufacturer that Kanay's en
 **The circular energy relationship:**
 
 ```
-Rivan solar array → excess power at midday (£10/MWh target)
-Kanay GPU compute at midday → cheap compute window
+Rivan solar → excess midday power (£10/MWh)
+Kanay GPU compute at midday → cheapest compute window
 Kanay compute during low-grid-price windows → Rivan process data
 Kanay energy arbitrage revenue → lower compute prices for Rivan
-Rivan SNG at £50/MWh (UK gas price) → 80% cheaper than previous producers
-Rivan SNG production → feeds UK gas grid → energy security + import substitution
-UK gas import bill: £300bn+/yr → domestic production displaces imports
+Rivan: biogenic CO₂ (from AD plant) + H₂ (electrolyser) → GSMR SNG
+GSMR SNG → UK gas grid at £50/MWh → 80% cheaper than previous producers
+UK gas import bill: £300bn+/yr → domestic SNG displaces imports
 ```
+
+**Note on CO₂ supply:** The current Rivan system uses biogenic CO₂ from a nearby anaerobic digestion plant. Future systems (with DAC) will not need a co-located AD facility — making the model more portable.
 
 **Market context:**
 - EU imports £300bn+ of fossil fuels annually
